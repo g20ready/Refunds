@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="146" id="KGk-i7-Jjw" customClass="TransactionTableViewCell" customModule="WarplyReturns" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="146"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="146"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30.8.2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GoC-f9-YTJ">
+                        <rect key="frame" x="8" y="8" width="75" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                        <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Αγορά: 39.90€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbN-MI-M17">
+                        <rect key="frame" x="8" y="37" width="148.66666666666666" height="25.333333333333336"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                        <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAISIO STORES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JvG-qC-RQO">
+                        <rect key="frame" x="8" y="70.333333333333329" width="145.33333333333334" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxxx xxxx xxxx 2018" textAlignment="natural" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NrT-DZ-lb7">
+                        <rect key="frame" x="8" y="101.33333333333333" width="134.66666666666666" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                        <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Ημ. Λήξης: 30.08.2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccZ-if-Fmm">
+                        <rect key="frame" x="233" y="101.33333333333333" width="152" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                        <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="+0.40€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q0e-Nh-z4C">
+                        <rect key="frame" x="311" y="55.999999999999993" width="74" height="25.333333333333321"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                        <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GoC-f9-YTJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="3U7-kt-KuY"/>
+                    <constraint firstItem="q0e-Nh-z4C" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="8CP-ZK-bzE"/>
+                    <constraint firstItem="RbN-MI-M17" firstAttribute="top" secondItem="GoC-f9-YTJ" secondAttribute="bottom" constant="8" id="BDR-ZF-dYz"/>
+                    <constraint firstItem="JvG-qC-RQO" firstAttribute="top" secondItem="RbN-MI-M17" secondAttribute="bottom" constant="8" id="Bh0-86-gB7"/>
+                    <constraint firstItem="q0e-Nh-z4C" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="JvG-qC-RQO" secondAttribute="trailing" constant="8" id="EV5-Oa-Z3R"/>
+                    <constraint firstItem="RbN-MI-M17" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="HXL-vG-POj"/>
+                    <constraint firstItem="ccZ-if-Fmm" firstAttribute="top" secondItem="NrT-DZ-lb7" secondAttribute="top" id="LKw-qP-jRt"/>
+                    <constraint firstItem="GoC-f9-YTJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="PjO-Pn-Mpu"/>
+                    <constraint firstItem="ccZ-if-Fmm" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="Qgp-hl-JeY"/>
+                    <constraint firstItem="NrT-DZ-lb7" firstAttribute="top" secondItem="JvG-qC-RQO" secondAttribute="bottom" constant="8" id="VcD-ot-7cd"/>
+                    <constraint firstItem="JvG-qC-RQO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="age-5O-jAw"/>
+                    <constraint firstItem="q0e-Nh-z4C" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="RbN-MI-M17" secondAttribute="trailing" constant="8" id="lQk-hX-llg"/>
+                    <constraint firstItem="ccZ-if-Fmm" firstAttribute="top" secondItem="q0e-Nh-z4C" secondAttribute="bottom" constant="20" id="oWs-Br-LuU"/>
+                    <constraint firstItem="ccZ-if-Fmm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NrT-DZ-lb7" secondAttribute="trailing" constant="8" id="xjL-MD-3eW"/>
+                    <constraint firstItem="NrT-DZ-lb7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="yVs-P0-ht2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ammountLabel" destination="q0e-Nh-z4C" id="VoX-Fe-reM"/>
+                <outlet property="cardNumberLabel" destination="NrT-DZ-lb7" id="QP1-xs-Ao9"/>
+                <outlet property="dateLabel" destination="ccZ-if-Fmm" id="D0E-7D-aYy"/>
+                <outlet property="storeLabel" destination="JvG-qC-RQO" id="m9d-Jd-BP8"/>
+                <outlet property="transactionDateLabel" destination="GoC-f9-YTJ" id="8Xa-q5-HZc"/>
+                <outlet property="transactionTypeLabel" destination="RbN-MI-M17" id="vfX-J4-W0z"/>
+            </connections>
+            <point key="canvasLocation" x="-534" y="-61"/>
+        </tableViewCell>
+    </objects>
+</document>

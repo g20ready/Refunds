@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5046B4641E30B1FA00259038 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046B4631E30B1FA00259038 /* ApiManager.swift */; };
+		5046B4661E30B26900259038 /* TransactionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046B4651E30B26900259038 /* TransactionsResponse.swift */; };
+		5046B4681E30B2A100259038 /* TransactionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046B4671E30B2A100259038 /* TransactionDTO.swift */; };
+		5046B46A1E30B54E00259038 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5046B4691E30B54E00259038 /* Constants.swift */; };
+		50CB6A7B1E315714008C2CE1 /* TransactionTypeChangedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB6A7A1E315714008C2CE1 /* TransactionTypeChangedDelegate.swift */; };
+		50DE4DE61E30B0D6005DF5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DE4DE51E30B0D6005DF5D4 /* AppDelegate.swift */; };
+		50DE4DEB1E30B0D6005DF5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DE4DE91E30B0D6005DF5D4 /* Main.storyboard */; };
+		50DE4DF01E30B0D7005DF5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DE4DEF1E30B0D7005DF5D4 /* Assets.xcassets */; };
+		50DE4DF31E30B0D7005DF5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DE4DF11E30B0D7005DF5D4 /* LaunchScreen.storyboard */; };
+		50F7A4CA1E30C9A700A86762 /* ViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7A4C91E30C9A700A86762 /* ViewPresenter.swift */; };
+		50F7A4CE1E30CAD300A86762 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7A4CC1E30CAD300A86762 /* BaseNavigationController.swift */; };
+		50F7A4CF1E30CAD300A86762 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7A4CD1E30CAD300A86762 /* TransactionsViewController.swift */; };
+		50F7A4D21E30CC6800A86762 /* TransactionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7A4D11E30CC6800A86762 /* TransactionsModel.swift */; };
+		50F7A4D61E30D01A00A86762 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7A4D41E30D01A00A86762 /* TransactionTableViewCell.swift */; };
+		50F7A4D71E30D01A00A86762 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F7A4D51E30D01A00A86762 /* TransactionTableViewCell.xib */; };
+		50F7A4DA1E30EF9A00A86762 /* NSDateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7A4D91E30EF9A00A86762 /* NSDateExtensions.swift */; };
+		50F7A4DC1E30F42100A86762 /* PieChartHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7A4DB1E30F42100A86762 /* PieChartHeaderView.swift */; };
+		50F7A4DF1E30F43600A86762 /* PieChartHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F7A4DE1E30F43600A86762 /* PieChartHeaderView.xib */; };
+		50F7A4E11E30F4A300A86762 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7A4E01E30F4A300A86762 /* UIViewExtensions.swift */; };
+		50F7A4E31E30F87600A86762 /* TimeFrameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7A4E21E30F87600A86762 /* TimeFrameButton.swift */; };
+		50F7A4E51E31092000A86762 /* TimeFrameChangeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F7A4E41E31092000A86762 /* TimeFrameChangeDelegate.swift */; };
+		50F7A4E91E31101900A86762 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F7A4E81E31101900A86762 /* Charts.framework */; };
+		89397B5386F44006D03E6204 /* Pods_WarplyReturns.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC669E7F1A9C6FDB9DD8A9 /* Pods_WarplyReturns.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FEC669E7F1A9C6FDB9DD8A9 /* Pods_WarplyReturns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarplyReturns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5046B4631E30B1FA00259038 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		5046B4651E30B26900259038 /* TransactionsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsResponse.swift; sourceTree = "<group>"; };
+		5046B4671E30B2A100259038 /* TransactionDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDTO.swift; sourceTree = "<group>"; };
+		5046B4691E30B54E00259038 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		50CB6A7A1E315714008C2CE1 /* TransactionTypeChangedDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionTypeChangedDelegate.swift; sourceTree = "<group>"; };
+		50DE4DE21E30B0D6005DF5D4 /* WarplyReturns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarplyReturns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DE4DE51E30B0D6005DF5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50DE4DEA1E30B0D6005DF5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50DE4DEF1E30B0D7005DF5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50DE4DF21E30B0D7005DF5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50DE4DF41E30B0D7005DF5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F7A4C91E30C9A700A86762 /* ViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPresenter.swift; sourceTree = "<group>"; };
+		50F7A4CC1E30CAD300A86762 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		50F7A4CD1E30CAD300A86762 /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		50F7A4D11E30CC6800A86762 /* TransactionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsModel.swift; sourceTree = "<group>"; };
+		50F7A4D41E30D01A00A86762 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		50F7A4D51E30D01A00A86762 /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionTableViewCell.xib; sourceTree = "<group>"; };
+		50F7A4D91E30EF9A00A86762 /* NSDateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtensions.swift; sourceTree = "<group>"; };
+		50F7A4DB1E30F42100A86762 /* PieChartHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartHeaderView.swift; sourceTree = "<group>"; };
+		50F7A4DE1E30F43600A86762 /* PieChartHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieChartHeaderView.xib; sourceTree = "<group>"; };
+		50F7A4E01E30F4A300A86762 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		50F7A4E21E30F87600A86762 /* TimeFrameButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeFrameButton.swift; sourceTree = "<group>"; };
+		50F7A4E41E31092000A86762 /* TimeFrameChangeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeFrameChangeDelegate.swift; sourceTree = "<group>"; };
+		50F7A4E61E310FC800A86762 /* PNChartSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PNChartSwift.framework; path = "Pods/../build/Debug-iphoneos/PNChartSwift/PNChartSwift.framework"; sourceTree = "<group>"; };
+		50F7A4E81E31101900A86762 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../../Library/Developer/Xcode/DerivedData/WarplyReturns-axhcauqhfybytsbymnkbcaxcklei/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<group>"; };
+		68E691DFAE37A244FF6E4BC4 /* Pods-WarplyReturns.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarplyReturns.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarplyReturns/Pods-WarplyReturns.release.xcconfig"; sourceTree = "<group>"; };
+		CC5B4622B5B8A6E06F047917 /* Pods-WarplyReturns.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarplyReturns.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarplyReturns/Pods-WarplyReturns.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50DE4DDF1E30B0D6005DF5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F7A4E91E31101900A86762 /* Charts.framework in Frameworks */,
+				89397B5386F44006D03E6204 /* Pods_WarplyReturns.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5046B45E1E30B17300259038 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				50F7A4D81E30EF8000A86762 /* Utils */,
+				50F7A4CB1E30CABE00A86762 /* UI */,
+				50F7A4C81E30C98200A86762 /* Base */,
+				5046B4621E30B1D400259038 /* Managers */,
+				5046B4601E30B1C200259038 /* Model */,
+				50DE4DE51E30B0D6005DF5D4 /* AppDelegate.swift */,
+				5046B4691E30B54E00259038 /* Constants.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5046B45F1E30B18000259038 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50DE4DE91E30B0D6005DF5D4 /* Main.storyboard */,
+				50DE4DEF1E30B0D7005DF5D4 /* Assets.xcassets */,
+				50DE4DF11E30B0D7005DF5D4 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5046B4601E30B1C200259038 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5046B4651E30B26900259038 /* TransactionsResponse.swift */,
+				5046B4671E30B2A100259038 /* TransactionDTO.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5046B4621E30B1D400259038 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5046B4631E30B1FA00259038 /* ApiManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		50DE4DD91E30B0D6005DF5D4 = {
+			isa = PBXGroup;
+			children = (
+				50DE4DE41E30B0D6005DF5D4 /* WarplyReturns */,
+				50DE4DE31E30B0D6005DF5D4 /* Products */,
+				C0BC53801AD60A774AF61B09 /* Pods */,
+				70683E60112B8E4A760BB96B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50DE4DE31E30B0D6005DF5D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50DE4DE21E30B0D6005DF5D4 /* WarplyReturns.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50DE4DE41E30B0D6005DF5D4 /* WarplyReturns */ = {
+			isa = PBXGroup;
+			children = (
+				5046B45E1E30B17300259038 /* Source */,
+				5046B45F1E30B18000259038 /* Resources */,
+				50DE4DF41E30B0D7005DF5D4 /* Info.plist */,
+			);
+			path = WarplyReturns;
+			sourceTree = "<group>";
+		};
+		50F7A4C81E30C98200A86762 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				50F7A4C91E30C9A700A86762 /* ViewPresenter.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		50F7A4CB1E30CABE00A86762 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				50F7A4D01E30CB0500A86762 /* Transactions */,
+				50F7A4CC1E30CAD300A86762 /* BaseNavigationController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		50F7A4D01E30CB0500A86762 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				50F7A4DD1E30F42500A86762 /* CustomViews */,
+				50F7A4CD1E30CAD300A86762 /* TransactionsViewController.swift */,
+				50F7A4D11E30CC6800A86762 /* TransactionsModel.swift */,
+				50F7A4D41E30D01A00A86762 /* TransactionTableViewCell.swift */,
+				50F7A4D51E30D01A00A86762 /* TransactionTableViewCell.xib */,
+			);
+			name = Transactions;
+			sourceTree = "<group>";
+		};
+		50F7A4D81E30EF8000A86762 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				50F7A4D91E30EF9A00A86762 /* NSDateExtensions.swift */,
+				50F7A4E01E30F4A300A86762 /* UIViewExtensions.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		50F7A4DD1E30F42500A86762 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				50F7A4DB1E30F42100A86762 /* PieChartHeaderView.swift */,
+				50F7A4DE1E30F43600A86762 /* PieChartHeaderView.xib */,
+				50F7A4E21E30F87600A86762 /* TimeFrameButton.swift */,
+				50F7A4E41E31092000A86762 /* TimeFrameChangeDelegate.swift */,
+				50CB6A7A1E315714008C2CE1 /* TransactionTypeChangedDelegate.swift */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		70683E60112B8E4A760BB96B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50F7A4E81E31101900A86762 /* Charts.framework */,
+				50F7A4E61E310FC800A86762 /* PNChartSwift.framework */,
+				3FEC669E7F1A9C6FDB9DD8A9 /* Pods_WarplyReturns.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0BC53801AD60A774AF61B09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC5B4622B5B8A6E06F047917 /* Pods-WarplyReturns.debug.xcconfig */,
+				68E691DFAE37A244FF6E4BC4 /* Pods-WarplyReturns.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50DE4DE11E30B0D6005DF5D4 /* WarplyReturns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DE4DF71E30B0D7005DF5D4 /* Build configuration list for PBXNativeTarget "WarplyReturns" */;
+			buildPhases = (
+				2A926A9D07B2864363EAC40A /* [CP] Check Pods Manifest.lock */,
+				50DE4DDE1E30B0D6005DF5D4 /* Sources */,
+				50DE4DDF1E30B0D6005DF5D4 /* Frameworks */,
+				50DE4DE01E30B0D6005DF5D4 /* Resources */,
+				57784C4091040FF1D79035BF /* [CP] Embed Pods Frameworks */,
+				838658AA0FDCC3DB797C3F93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarplyReturns;
+			productName = WarplyReturns;
+			productReference = 50DE4DE21E30B0D6005DF5D4 /* WarplyReturns.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50DE4DDA1E30B0D6005DF5D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Marsel Tzatzo";
+				TargetAttributes = {
+					50DE4DE11E30B0D6005DF5D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 50DE4DDD1E30B0D6005DF5D4 /* Build configuration list for PBXProject "WarplyReturns" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50DE4DD91E30B0D6005DF5D4;
+			productRefGroup = 50DE4DE31E30B0D6005DF5D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50DE4DE11E30B0D6005DF5D4 /* WarplyReturns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50DE4DE01E30B0D6005DF5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DE4DF31E30B0D7005DF5D4 /* LaunchScreen.storyboard in Resources */,
+				50F7A4DF1E30F43600A86762 /* PieChartHeaderView.xib in Resources */,
+				50DE4DF01E30B0D7005DF5D4 /* Assets.xcassets in Resources */,
+				50F7A4D71E30D01A00A86762 /* TransactionTableViewCell.xib in Resources */,
+				50DE4DEB1E30B0D6005DF5D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A926A9D07B2864363EAC40A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57784C4091040FF1D79035BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarplyReturns/Pods-WarplyReturns-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		838658AA0FDCC3DB797C3F93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarplyReturns/Pods-WarplyReturns-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50DE4DDE1E30B0D6005DF5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F7A4E31E30F87600A86762 /* TimeFrameButton.swift in Sources */,
+				50F7A4DA1E30EF9A00A86762 /* NSDateExtensions.swift in Sources */,
+				5046B4681E30B2A100259038 /* TransactionDTO.swift in Sources */,
+				50F7A4CE1E30CAD300A86762 /* BaseNavigationController.swift in Sources */,
+				50F7A4E51E31092000A86762 /* TimeFrameChangeDelegate.swift in Sources */,
+				50F7A4E11E30F4A300A86762 /* UIViewExtensions.swift in Sources */,
+				5046B4661E30B26900259038 /* TransactionsResponse.swift in Sources */,
+				5046B4641E30B1FA00259038 /* ApiManager.swift in Sources */,
+				50F7A4CA1E30C9A700A86762 /* ViewPresenter.swift in Sources */,
+				50CB6A7B1E315714008C2CE1 /* TransactionTypeChangedDelegate.swift in Sources */,
+				50DE4DE61E30B0D6005DF5D4 /* AppDelegate.swift in Sources */,
+				50F7A4DC1E30F42100A86762 /* PieChartHeaderView.swift in Sources */,
+				50F7A4D61E30D01A00A86762 /* TransactionTableViewCell.swift in Sources */,
+				50F7A4CF1E30CAD300A86762 /* TransactionsViewController.swift in Sources */,
+				50F7A4D21E30CC6800A86762 /* TransactionsModel.swift in Sources */,
+				5046B46A1E30B54E00259038 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50DE4DE91E30B0D6005DF5D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50DE4DEA1E30B0D6005DF5D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50DE4DF11E30B0D7005DF5D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50DE4DF21E30B0D7005DF5D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50DE4DF51E30B0D7005DF5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50DE4DF61E30B0D7005DF5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50DE4DF81E30B0D7005DF5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5B4622B5B8A6E06F047917 /* Pods-WarplyReturns.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/PNChartSwift",
+				);
+				INFOPLIST_FILE = WarplyReturns/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.WarplyReturns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		50DE4DF91E30B0D7005DF5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E691DFAE37A244FF6E4BC4 /* Pods-WarplyReturns.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/PNChartSwift",
+				);
+				INFOPLIST_FILE = WarplyReturns/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.WarplyReturns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50DE4DDD1E30B0D6005DF5D4 /* Build configuration list for PBXProject "WarplyReturns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DE4DF51E30B0D7005DF5D4 /* Debug */,
+				50DE4DF61E30B0D7005DF5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DE4DF71E30B0D7005DF5D4 /* Build configuration list for PBXNativeTarget "WarplyReturns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DE4DF81E30B0D7005DF5D4 /* Debug */,
+				50DE4DF91E30B0D7005DF5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50DE4DDA1E30B0D6005DF5D4 /* Project object */;
+}

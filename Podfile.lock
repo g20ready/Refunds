@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.3.0)
+  - Charts (3.0.1):
+    - Charts/Core (= 3.0.1)
+  - Charts/Core (3.0.1)
+  - ObjectMapper (2.2.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - Charts
+  - ObjectMapper (~> 2.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+
+PODFILE CHECKSUM: 2051f2c0d9cf6f80cad51df69c204379d3ff3e45
+
+COCOAPODS: 1.1.1
